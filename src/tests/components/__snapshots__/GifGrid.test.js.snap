@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en gif grid Debe de mostrar items cuando se cargan imagenes con useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    key=""
+  />
+  <div
+    className="card_wrapper"
+  >
+    <GridItem
+      id="ABC"
+      key="ABC"
+      title="Cualquier cosa"
+      url="https://localhost:8000/cosa.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en gif grid match con el esnapshot 1`] = `
+<Fragment>
+  <h3
+    key=""
+  />
+  <p>
+    Loading...
+  </p>
+  <div
+    className="card_wrapper"
+  />
+</Fragment>
+`;

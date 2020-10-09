@@ -3,10 +3,10 @@ import { AddCategory } from './components/AddCategory'
 import { GifGrid } from './components/GifGrid'
 
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({defaultCategories = []}) => {
 
     //en react no te permite modificar constantes
-    const [categories, setCategories] = useState(['One punch'])
+    const [categories, setCategories] = useState(defaultCategories)
 
     return (
         <div>
